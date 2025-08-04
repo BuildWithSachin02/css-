@@ -1,0 +1,48 @@
+body{
+	height:100vh;
+	width:100%;
+}
+.parallax{
+	background-image:url('https://images.pexels.com/photos/28933384/pexels-photo-28933384/free-photo-of-scenic-himachal-pradesh-temple-with-mountain-views.jpeg');
+	HEIGHT:100VH;
+	width:100%;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	
+}
+.content{
+	height:70px;
+	background:white;
+	display:flex;
+	justify-content:center;
+}
+.parallax1{
+	background-image:url('https://media.radissonhotels.net/image/destination-pages--apac/promotional/16256-148400-f75939540_3xl.jpg?impolicy=HomeHero');
+	height:100vh;
+	width:100%;
+    background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+}
+.content1{
+	height:70px;
+	background:white;
+	display:flex;
+	justify-content:center;
+	
+}
+.parallax2{
+	background-image:url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2c/e8/48/kinnaur-kailash-range.jpg?w=1400&h=1400&s=1');
+	height:100vh;
+	width:100%;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+}
+.content2{
+	height:70;
+	background:white;
+	display:flex; 
+	justify-content:center;
+}
