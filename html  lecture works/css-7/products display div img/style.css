@@ -1,0 +1,65 @@
+body{
+	display:flex;
+	justify-content:center;
+}
+
+.main{
+		border:solid 1px grey;
+}
+.text{
+	height:50px;
+	width:1000px;
+	background-color:;
+	text-align:center;
+	font-size:25px;
+	display:flex;
+	justify-content:center;
+}
+.second{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+}
+.div1, .div3, .div4, .div6{
+	height:300px;
+	width:220px;
+	border:solid 1px black;
+	text-align:center;
+	border-radius:10px;
+	padding:5px;
+}
+.div2, .div5{
+	height:300px;
+	width:450px;
+	border:solid 1px black;
+	text-align:center;
+	border-radius:10px;
+	padding:5px;
+}
+.div1 img, .div2 img, .div3 img, .div4 img, .div5 img, .div6 img{
+	height:220px;
+	width:100%;
+	object-fit:cover;
+	border-radius:10px;
+	padding:0px;
+}
+.cap1, .cap2, .cap3, .cap4, .cap5, .cap6{
+	color
+}
+.cap1 h4, .cap2 h4, .cap3 h4, .cap4 h4, .cap5 h4, .cap6 h4{
+	margin:5px ;
+}
+
+.cap1 p, .cap2 p, .cap3 p, .cap4 p, .cap5 p, .cap6 p{
+	color:grey;
+	font-size:14px;
+    margin-bottom:10px;
+}
+.third{
+	display:flex;
+	justify-content:center;
+	margin-top:40px;
+	height:350px;
+	width:1000px;
+	GAP:20px;
+}
