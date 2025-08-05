@@ -1,0 +1,87 @@
+body{
+	height:100vh;
+	width:100%;
+}
+.main{
+	height:100vh;
+	width:100%;
+}
+.super{
+	display:flex;
+	justify-content:space-between;
+	background-color:grey;
+	height:300px;
+	width:1150px;
+	
+}
+.super1{
+	height:150px;
+	width:1000px;
+}
+.logo{
+	height;150px;
+	width:500px;
+	object-fit:cover;
+}
+.logo img{
+	height:300px;
+	width:400px;
+	object-fit:cover;
+	border-radius:10px;
+	padding:0px;
+}
+.total{
+	height:50px;
+	width:1000px;
+	display:flex;
+	justify-content:space-between;
+	
+}
+.t2, .t2{
+	height:50px;
+	width:50px;
+	display:flex;
+	gap:10px;
+}
+.row1{
+	height:500px;
+	width:1150px;
+	
+}
+.pro-1{
+	height:500px;
+	width:250px;
+	border:solid 1px black;
+}
+.s1{
+	background-color:red;
+	width:50px ;
+color:white;
+	padding:5px;
+	margin-top:10px;
+ 
+}
+.s2{
+	background-color:green;
+	width:50px;
+	color:white;
+	padding:5px;
+	margin-top:20px;
+}
+.rating{
+diplay: flex;
+}
+
+.photo{
+	height:179px;
+	width:150px;
+}
+.photo img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+	margin-bottom:10px;
+}
+.star img{
+	
+}
