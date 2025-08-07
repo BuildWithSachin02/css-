@@ -1,0 +1,48 @@
+body{
+	height:100vh;
+	width:100%;
+}
+.parallax{
+	background-image:url('https://wallpapers.com/images/hd/vinland-saga-thors-sword-1k6wiqlll5ry99bp.jpg');
+	HEIGHT:100VH;
+	width:100%;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	
+}
+.content{
+	height:70px;
+	background:white;
+	display:flex;
+	justify-content:center;
+}
+.parallax1{
+	background-image:url('https://c4.wallpaperflare.com/wallpaper/529/503/711/vinland-saga-anime-simple-background-hd-wallpaper-preview.jpg');
+	height:100vh;
+	width:100%;
+    background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+}
+.content1{
+	height:70px;
+	background:white;
+	display:flex;
+	justify-content:center;
+	
+}
+.parallax2{
+	background-image:url('https://www.animeexplained.com/wp-content/uploads/2023/05/Thorfinn-True-warrior-featured.jpg');
+	height:100vh;
+	width:100%;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+}
+.content2{
+	height:70;
+	background:white;
+	display:flex;
+	justify-content:center;
+}
