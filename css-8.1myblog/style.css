@@ -1,0 +1,84 @@
+.blog{
+	height:70px;
+	width:1000px;
+	background-color:black;
+	color:white;
+	text-align:center;
+	margin-bottom:5px;
+	display:flex;
+	justify-content:center;
+}
+.col{	
+	height:1200px;
+	width:150px;
+	background-color:#94B4D6;
+}
+.third{
+	height:1200px;
+	width:849px;
+	background-color:;	
+}
+.main2{
+	display:flex;
+	gap:10px;
+}
+.post p::first-letter{
+	font-size:200%;
+	color:red;
+	
+}
+.sudo::selection{
+	background-color:yellow;
+	color:red;
+}
+.sudo::first-line{
+	text-transform:uppercase;
+}
+.post h2, .sudo{
+	margin-left:5%;
+}
+.p1{
+	margin-left:5%;
+}
+.photo img{
+	height:300px;
+	width:250px;
+	width:250px;
+	object-fit:cover;
+	margin-left:2%;
+	border-radius:5px;
+	border:solid 0.5px black;
+}
+.a{
+	background-color:#F1F8E9;
+	color:black;
+}
+.b{
+	background-color:#2684FC;
+	color:white;
+}
+.c{
+	background-color:#F1F8E9;
+	color:red;
+}
+.e{
+	background-color:#E0F7FA;
+	color:black;
+}
+.d{
+	background-color:#2684FC;
+	color:white;
+}
+body{
+	display:flex;
+	justify-content:center;
+}
+.main{
+	border:solid 1px black;
+	padding:10px;
+}
+.photo1 img{
+	height:150px;
+	width:140px;
+	object-fit:cover;
+}
