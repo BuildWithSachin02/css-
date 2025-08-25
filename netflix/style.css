@@ -1,0 +1,296 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+    padding-top: 25px;
+}
+h1{
+    color: white;
+}
+.hy{
+    font-size: 80px;
+}
+.logo{
+    height: 55px;
+    width: 170px;
+    margin-left: 150px;
+}
+.right{
+    gap: 10px;
+    margin-right: 150px;
+}
+.sec1{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/3e4bd046-85a3-40e1-842d-fa11cec84349/web/IN-en-20250818-TRIFECTA-perspective_4bd1b66d-bbb6-4bc6-ba8f-ecbba53a1278_large.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px;
+    position: relative;
+}
+.black{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.lag{
+    margin-left: 20px;
+    gap: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    
+}
+#lg{
+    width: 124px;
+    height: 31px;
+    color: white;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.navbar h2 {
+    color: rgba(255, 37, 37, 0.482);
+    font-size: 24px;
+    margin: 0;
+}
+.content {
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    align-content: center;
+}
+.content h1{
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.content h3{
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.content input{
+    padding: 10px 15px;
+    width: 300px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.btn-2{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 175px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn-2:hover {
+    background-color: darkred;
+}
+.btn-2:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px darkred;
+}
+.btn{
+    background-color: rgba(255, 0, 0, 0.923);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn:hover {
+    background-color: darkred;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px darkred;
+}
+.boder{
+    width: 100%;
+    height: 20px;
+    position: relative;
+}
+.cut{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: linear-gradient(to bottom, #1a223d,#000000);
+    border-top: 5px solid #ec0f94;
+    border-radius: 80% / 20px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    margin: 20px 70px;
+    overflow: scroll;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 283px;
+    width: 80%;
+    gap: 10px;
+}
+.ii{
+    border-radius: 8px;
+    height: 276px;
+    width: 197px;
+    /* gap: 10px; */
+}
+.ii:hover {
+    transform: scale(1.06);
+    transition: transform 0.6s ease;
+    cursor: pointer;
+}
+.sec3{
+    display: flex;
+    justify-content: center ;
+}
+.box-1{
+    height: 330px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to top,#20111D, #1A2144);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+}
+.box-1:hover {
+    transform: scale(1.06);
+    transition: transform 0.6s ease;
+}
+.pt{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    padding: 0 10px;
+}
+.icon{
+    margin-top: 85px;
+    margin-left: 185px;
+}
+.icon i{
+    
+    /* background-color: #1A2144; */
+    color: rgba(85, 11, 85, 0.757);
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 50px;
+    /* background: linear-gradient(to top, #301934, #1A2144); */
+}
+.box-1, h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    padding: 0 10px;
+    font-weight: bold;
+}
+#download-icon {
+    color: rgba(85, 11, 85, 0.757);
+    background-color: rgb(186, 141, 86);
+}
+.sec4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 150px;
+    gap: 25px;
+    align-items: center;
+    align-content: center;
+    margin-top: 80px;
+}
+.box-2{
+    height: 30px;
+    width: 700px;
+    background-color: rgba(128, 128, 128, 0.543);
+    font-size: 25px;
+    color: white;
+    display: flex;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-2:hover {
+    background-color: rgba(169, 169, 169, 0.763);
+}
+.email-input {
+    padding: 10px 15px;
+    /* width: 450px; */
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.box-3{
+     margin-left: 200px;
+     display: grid;
+     grid-template-columns: repeat(4, 200px);
+     gap: 50px;
+     padding: 20px;
+     color: gray;
+}
+.rb{
+    margin-top: 150px;
+}
+.sec6{
+    margin-top: 150px;
+
+}
+.eng{
+    margin-left: 200px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+/* #lg-y{
+    width: 124px;
+    height: 31px;
+    color: white;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+} */
+.lg-y{
+    width: 124px;
+    height: 31px;
+    color: white;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
