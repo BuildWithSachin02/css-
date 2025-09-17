@@ -1,0 +1,44 @@
+/* outout hmra 1024px-768px tak hmra output me hme usse ese show krna h ki jo responsive box h ussme 
+hme yeh krana h ki user ka screen 1024px se kaam toh hmra output kuch esa show krna h ki 5-5
+ke boxes h ussme mujhe yeh krna h ki 5-5 boxes ko mujhe 4-4(niche 2 box)rhega
+fir dusra container mujhe yeh show kr wana h ki usser ka screen 1024px-768px ke ander ya niche  jaata h mtlb ki isse kaam ho tab hme
+dusra box jo video wla container h usse mujhe total 4 h usse mujhe 2-2 divide krna h bss 
+aur last apna kaam h ki phone ke liye responsive bnane ke liye hme 767px-320px 
+pehle wla container ko 2-2 me divide krna aur dusra wla container jo video wla 
+h usse mujhe 1-1 by krna h column me yeh rhega hmra responsive. */
+
+/* layout for destop 1024px-768px(tablet) view */
+
+@media (max-width:1024px){
+    .grid-box{
+        grid-template-columns: repeat(3, 3fr);
+    }
+    .nav-text1{
+        margin-top: 20px;
+    }
+    
+}
+
+/* for tablet view max-width:768px */
+
+@media (max-width:768px){
+    .grid-box{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        
+    }
+    .video-box{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+@media (max-width:420px){
+    .grid-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .video-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
