@@ -1,0 +1,9 @@
+/*nav-bar responsive*/
+@media (max-width:1116px){
+        .option-bar{
+            display: none;
+        }
+        .menu-container{
+            display: block;
+        }
+}
