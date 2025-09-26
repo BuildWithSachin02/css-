@@ -1,0 +1,185 @@
+@media (max-width:320px){
+    .gray-courses{
+        font-size: 11px;
+    }
+    .num{
+        font-size: 13px;
+    }
+    .sec-2{
+         height: auto;
+    }
+    .options-svg-icons{
+        display: flex;
+        gap: 5px;
+    }
+    .grid-text span{
+        font-size: 11px;
+    }
+}
+@media (max-width:378px){
+    .gray-courses span{
+        font-size: 7px;
+    }
+    .num{
+        font-size: 12px;
+    }
+    .sec-2{
+         height: auto;
+    }
+    .options-svg-icons{
+        display: flex;
+        gap: 5px;
+    }
+    .grid-text {
+        font-size: 7px;
+    }
+    .student-svg{
+        height: 25px;
+        /* padding: 5px; */
+    }
+}
+@media (max-width:350px){
+    .grid-courses{
+         font-size: 11px;
+    }
+    .rnw-logo-img img{
+         height: 40px;
+         width: 80px;
+    }
+    .num{
+        font-size: 12px;
+    }
+    .sec-2{
+         height: auto;
+    }
+    .gray-text {
+        font-size: 9px;
+    }
+    .student-svg{
+        height: 25px;
+        /* padding: 5px; */
+    }
+     .web{
+            height: 80px;
+            width: 120px;
+            /* padding: 5PX; */
+            font-size: 12px;
+        }
+        .web img{
+            object-fit: cover;
+            /* height: auto;
+            width: auto; */
+        }
+}
+/*mentor box*/
+@media (max-width:612px){          
+        .mentor-img img{
+                 height: 370px;
+                 width: 270px;     
+        }
+        .mentor-context{
+                height: 150px;
+                width: 250px;
+                font-size: 17px;
+        }
+         .span-text{
+            font-size: 15px;
+        }
+}
+@media (max-width:552px){          
+        .mentor-img img{
+                 height: 340px;
+                 width: 240px;     
+        }
+        .mentor-context{
+                height: 150px;
+                width: 220px;
+                font-size: 16px;
+        }
+         .span-text{
+            font-size: 14px;
+        }
+}
+@media (max-width:492px){          
+        .mentor-img img{
+                 height: 340px;
+                 width: 200px;     
+        }
+        .mentor-context{
+                height: 150px;
+                width: 190px;
+                font-size: 13px;
+                padding: 5px;
+        }
+         .span-text{
+            font-size: 13px;
+        }
+}
+@media (max-width:412px){          
+        .mentor-img img{
+                 height: 300px;
+                 width: 180px;     
+        }
+        .mentor-context{
+                height: 150px;
+                width: 170px;
+                font-size: 12px;
+                padding: 5px;
+        }
+        .span-text{
+            font-size: 12px;
+        }
+}
+@media (max-width:372px){          
+        .mentor-img img{
+                 height: 300px;
+                 width: 340px;     
+        }
+        .mentor-context{
+                height: 150px;
+                width: 330px;
+                font-size: 12px;
+                padding: 5px;
+        }
+        .span-text{
+            font-size: 15px;
+        }
+}
+@media (max-width:340px){          
+        .mentor-img img{
+                 height: 300px;
+                 width: 300px;     
+        }
+        .mentor-context{
+                height: 150px;
+                width: 290px;
+                font-size: 12px;
+                padding: 5px;
+        }
+        .span-text{
+            font-size: 15px;
+        }
+}
+/*5-pillers img box*/
+@media (max-width:490px){
+    .pillers-5 img{
+        height: 300px;
+        width: 350px;
+    }
+}
+@media (max-width:370px){
+    .pillers-5 img{
+        height: 250px;
+        width: 280px;
+    }
+    .h1-headlines{
+        font-size: 30px;
+    }
+}
+@media (max-width:768px){
+        .right-checkbox-content{
+            display: flex;
+            flex-direction: column;
+
+        }
+}

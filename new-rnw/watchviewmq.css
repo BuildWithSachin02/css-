@@ -1,0 +1,57 @@
+
+@media (max-width:280px){
+    .btn-rd{
+       height: 20px;
+       width: 70px;
+       font-size: 6px;
+       padding: 5px;
+    }
+    .city{
+        display: flex;
+        gap: 3px;
+    }
+    .red-nav{
+        width: auto;
+        height: 28px;
+    }
+    .rnw-logo-img img{
+        height: 25px;
+        width: 65px;
+    }
+    .nav-2{
+        height: 40px;
+    }
+    .grid-courses span{
+        font-size: 8px;
+    }
+    .grid-courses{
+        display: flex;
+        gap: -10px;
+    }
+    .rw-facilityies{
+        display: flex;
+        flex-wrap: wrap;
+    }    
+    .courses-context{
+             font-size: 5px;
+        }   
+        .web{
+            height: 10px;
+            width: 10px;
+        }
+} 
+@media (max-width:192px){          
+        .mentor-img img{
+                 height: 30px;
+                 width: 30px;     
+        }
+        .mentor-context{
+                height: 10px;
+                width: 30px;
+                font-size: 12px;
+                padding: 5px;
+        }
+        .span-text{
+            font-size: 15px;
+        }
+} 
