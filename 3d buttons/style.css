@@ -1,0 +1,408 @@
+body{
+    background-color: #0D0D0E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(150deg, #101012, black);
+  margin-top: 200px;
+}
+
+.main {
+  max-width: 360px;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+}
+
+.buttonContainer {
+  background: linear-gradient(160deg, #000, #0e0e0e);
+  max-width: 340px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow:
+    0 0 100px 50px rgba(236, 236, 236, 0.092),
+    0 4px 0 rgba(143, 143, 143, 0.187);
+  transition:
+    transform 0.45s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+    box-shadow 0.3s ease-in-out;
+}
+
+.buttonContainer:hover {
+  transform: perspective(600px) rotateX(4deg) rotateY(4deg) scale(1.05);
+  box-shadow:
+    0 0 100px 50px rgba(255, 183, 116, 0.172),
+    0 2px 0 rgb(255, 123, 16),
+    0 4px 0 rgba(255, 119, 0, 0.924),
+    0 6px 0 rgba(255, 123, 0, 0.86),
+    0 8px 0 rgba(255, 132, 0, 0.84);
+  animation: breathe 1.2s ease-in-out infinite alternate;
+  filter: drop-shadow(0 0 12px #fff5)
+    drop-shadow(0 0 20px rgba(255, 149, 0, 0.333));
+}
+
+@keyframes breathe {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.02);
+  }
+}
+
+.buttonContainer:active,
+.buttonContainer:focus {
+  box-shadow:
+    0 0 100px 50px rgba(255, 183, 116, 0.172),
+    0 1px 0 rgb(255, 115, 0),
+    0 2px 0 rgb(255, 120, 0),
+    0 4px 0 rgb(255, 125, 0),
+    0 6px 0 rgb(255, 130, 0);
+  animation: breathe 1.2s ease-in-out infinite alternate;
+  filter: drop-shadow(0 0 14px #fff5)
+    drop-shadow(0 0 20px rgba(255, 149, 0, 0.444));
+  outline: none;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.edgeTL,
+.edgeTR,
+.edgeBR,
+.edgeBL {
+  position: absolute;
+  content: "";
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+  opacity: 1;
+  transition:
+    opacity 0.4s ease,
+    border-color 0.3s ease;
+}
+
+.edgeTL {
+  top: 0;
+  left: 0;
+  border-top: 3px solid #b8b8b8;
+  border-left: 3px solid #b8b8b8;
+  border-top-left-radius: 8px;
+}
+
+.edgeTR {
+  top: 0;
+  right: 0;
+  border-top: 3px solid #b8b8b8;
+  border-right: 3px solid #b8b8b8;
+  border-top-right-radius: 8px;
+}
+
+.edgeBR {
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px solid #b8b8b8;
+  border-right: 3px solid #b8b8b8;
+  border-bottom-right-radius: 8px;
+}
+
+.edgeBL {
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px solid #b8b8b8;
+  border-left: 3px solid #b8b8b8;
+  border-bottom-left-radius: 8px;
+}
+
+.main:hover .edgeTL {
+  border-top-color: #ff9900;
+  border-left-color: #ff9900;
+  animation: jelly 0.45s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.main:hover .edgeTR {
+  border-top-color: #ff9900;
+  border-right-color: #ff9900;
+  animation: jelly 0.45s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.main:hover .edgeBR {
+  border-bottom-color: #ff9900;
+  border-right-color: #ff9900;
+  animation: jelly 0.45s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.main:hover .edgeBL {
+  border-bottom-color: #ff9900;
+  border-left-color: #ff9900;
+  animation: jelly 0.45s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.main:focus-within .edgeTL,
+.main:focus-within .edgeTR,
+.main:focus-within .edgeBR,
+.main:focus-within .edgeBL {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.main:focus-within .edgeTL {
+  translate: 10px 10px;
+}
+.main:focus-within .edgeTR {
+  translate: -10px 10px;
+}
+.main:focus-within .edgeBL {
+  translate: 10px -10px;
+}
+.main:focus-within .edgeBR {
+  translate: -10px -10px;
+}
+
+.button-wrapper {
+  background: linear-gradient(
+    150deg,
+    #ececec,
+    rgba(255, 255, 255, 0.271),
+    rgb(89, 89, 89),
+    #272727
+  );
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(120deg, rgb(69, 69, 69), rgba(0, 0, 0, 0.907));
+  background-size: 5px 5px;
+  background-position: center;
+  font-size: 28px;
+  font-weight: 400;
+  color: white;
+  border-radius: 17px;
+  text-align: center;
+  padding: 8px;
+  box-shadow:
+    0 0 2px 4px rgba(255, 255, 255, 0.131) inset,
+    -2px -2px 3px rgb(0, 0, 0),
+    2px 2px 3px rgba(0, 0, 0, 0.515),
+    0 2px 2px rgba(0, 0, 0, 0.249);
+}
+
+.title {
+  padding: 17px 34px;
+  white-space: nowrap;
+  display: flex;
+  gap: 2px;
+}
+
+.title span {
+  display: inline-block;
+  color: #fff;
+  text-shadow: 0 0 4px rgba(255, 145, 0, 0.6);
+  transition:
+    transform 0.35s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+    filter 0.35s ease;
+  transition-delay: (2 * 0.04s);
+}
+
+.buttonContainer:hover .title span {
+  transform: translateY(-2px) scale(1.1);
+  filter: drop-shadow(0 0 6px rgba(255, 166, 0, 0.854));
+}
+
+.arrowButton {
+  width: 28%;
+  position: relative;
+  background: rgba(208, 208, 208, 0.775);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  box-shadow:
+    2px 2px 2px rgba(255, 255, 255, 0.533) inset,
+    -2px -2px 4px rgba(0, 0, 0, 0.11) inset;
+  overflow: hidden;
+}
+
+.arrowButton::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  right: 7px;
+  bottom: 7px;
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: 1;
+  background-image: radial-gradient(circle, white 3px, transparent 3px);
+  background-size: 10px 12px;
+  background-position: center;
+  opacity: 0.2;
+}
+
+.arrowButton::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 14px;
+  right: 16px;
+  bottom: 18px;
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: 2;
+  background-image: radial-gradient(circle, white 3px, transparent 3px);
+  background-size: 10px 12px;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.buttonContainer:hover .arrowButton {
+  animation: liquidPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes liquidPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.buttonContainer:active {
+  animation: glitchZoom 0.18s steps(2, end);
+}
+
+@keyframes glitchZoom {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.98);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  75% {
+    transform: scale(0.99);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.plans {
+  position: absolute;
+  top: calc(50% + 90px);
+  display: flex;
+  background: linear-gradient(
+    50deg,
+    rgba(0, 0, 0, 0.588),
+    rgba(177, 68, 0, 0.092),
+    rgba(0, 0, 0, 0.688)
+  );
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 12px;
+  gap: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-50%) scale(0.4) rotateX(90deg);
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.main:focus-within ~ .plans {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1) rotateX(0deg);
+}
+
+.plan {
+  width: 110px;
+  padding: 8px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  cursor: pointer;
+  transform-origin: center bottom;
+}
+
+.plan:nth-child(1) {
+  transition-delay: 0.05s;
+}
+
+.plan:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.plan:nth-child(3) {
+  transition-delay: 0.15s;
+}
+
+.plan .h2 {
+  font-size: 14px;
+  margin-bottom: 0.2rem;
+  text-wrap: nowrap;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.plan.basic .h2 {
+  background: linear-gradient(to right, #6c8dbf, #a9c3e8);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.plan.standard .h2 {
+  background: linear-gradient(to right, #2da58a, #6dd5b3);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.plan.premium .h2 {
+  background: linear-gradient(to right, #c49a48, #f7d08a);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.plan p {
+  font-size: 12px;
+  color: #ffffffdd;
+  margin: 2px 0;
+}
+
+.plan:hover {
+  animation: jelly 0.45s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes jelly {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.15) rotate(-4deg);
+  }
+  60% {
+    transform: scale(0.9) rotate(2deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
