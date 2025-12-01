@@ -1,0 +1,709 @@
+
+
+.s {
+  display: none;
+}
+
+.s:active ~ .text .line {
+  animation: none;
+}
+
+#def:checked ~ .input .for-def {
+  display: flex;
+}
+
+#def:checked ~ .text {
+  --n1: 45;
+  --n2: 20;
+  --n3: 0;
+
+  .line.a::before {
+    content: "hey buddy. you lost? or just...";
+  }
+  .line.b::before {
+    content: "passing through.";
+  }
+  .line.c::before {
+    content: "";
+  }
+}
+
+#r-0:checked ~ .text {
+  --n1: 35;
+  --n2: 25;
+  --n3: 0;
+}
+#r-0:checked ~ .text .line.a::before {
+  content: "that's a good thing. there's been";
+}
+#r-0:checked ~ .text .line.b::before {
+  content: "a lot of bad ones lately.";
+}
+#r-0:checked ~ .input .for-r-0 {
+  display: flex;
+}
+#r-0-0:checked ~ .text .sans {
+  background-image: var(--look-right);
+}
+#r-0-0:checked ~ .text {
+  --n1: 32;
+  --n2: 14;
+  --n3: 0;
+}
+#r-0-0:checked ~ .text .line.a::before {
+  content: "oh! i didn't even notice. which";
+}
+#r-0-0:checked ~ .text .line.b::before {
+  content: "one was yours?";
+}
+#r-0-0:checked ~ .input .for-r-0-0 {
+  display: flex;
+}
+#r-0-0-0:checked ~ .text .sans {
+  background-image: var(--disgruntled);
+}
+#r-0-0-0:checked ~ .text {
+  --n1: 28;
+  --n2: 11;
+  --n3: 0;
+}
+#r-0-0-0:checked ~ .text .line.a::before {
+  content: "oh, that one. yeah, that was";
+}
+#r-0-0-0:checked ~ .text .line.b::before {
+  content: "pretty bad.";
+}
+#r-0-0-0:checked ~ .input .for-r-0-0-0 {
+  display: flex;
+}
+#r-0-0-0-0:checked ~ .text {
+  --n1: 30;
+  --n2: 14;
+  --n3: 0;
+}
+#r-0-0-0-0:checked ~ .text .line.a::before {
+  content: "well, you're entitled to your";
+}
+#r-0-0-0-0:checked ~ .text .line.b::before {
+  content: "wrong opinion.";
+}
+#r-0-0-0-0:checked ~ .input .for-r-0-0-0-0 {
+  display: flex;
+}
+#r-0-0-0-0-0:checked ~ .text {
+  --n1: 31;
+  --n2: 6;
+  --n3: 0;
+}
+#r-0-0-0-0-0:checked ~ .text .line.a::before {
+  content: "i know. i know. it’s part of my";
+}
+#r-0-0-0-0-0:checked ~ .text .line.b::before {
+  content: "charm.";
+}
+#r-0-0-0-0-0:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-0-0-0-0-1:checked ~ .text {
+  --n1: 27;
+  --n2: 25;
+  --n3: 0;
+}
+#r-0-0-0-0-1:checked ~ .text .line.a::before {
+  content: "phew. for a second there, i";
+}
+#r-0-0-0-0-1:checked ~ .text .line.b::before {
+  content: "thought you were serious.";
+}
+#r-0-0-0-0-1:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-0-0-0-1:checked ~ .text .sans {
+  background-image: var(--confused);
+}
+#r-0-0-0-1:checked ~ .text {
+  --n1: 34;
+  --n2: 21;
+  --n3: 0;
+}
+#r-0-0-0-1:checked ~ .text .line.a::before {
+  content: "mine? nah, i don't submit. i just";
+}
+#r-0-0-0-1:checked ~ .text .line.b::before {
+  content: "sit around and judge.";
+}
+#r-0-0-0-1:checked ~ .input .for-r-0-0-0-1 {
+  display: flex;
+}
+#r-0-0-0-1-0:checked ~ .text .sans {
+  background-image: var(--wink);
+}
+#r-0-0-0-1-0:checked ~ .text {
+  --n1: 30;
+  --n2: 7;
+  --n3: 0;
+}
+#r-0-0-0-1-0:checked ~ .text .line.a::before {
+  content: "yeah, i’m a professional couch";
+}
+#r-0-0-0-1-0:checked ~ .text .line.b::before {
+  content: "critic.";
+}
+#r-0-0-0-1-0:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-0-0-0-1-1:checked ~ .text .sans {
+  background-image: var(--disgruntled);
+}
+#r-0-0-0-1-1:checked ~ .text {
+  --n1: 34;
+  --n2: 15;
+  --n3: 0;
+}
+#r-0-0-0-1-1:checked ~ .text .line.a::before {
+  content: "it's not unfair. it's just lazy.";
+}
+#r-0-0-0-1-1:checked ~ .text .line.b::before {
+  content: "big difference.";
+}
+#r-0-0-0-1-1:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-0-0-1:checked ~ .text .sans {
+  background-image: var(--pensive);
+}
+#r-0-0-1:checked ~ .text {
+  --n1: 28;
+  --n2: 28;
+  --n3: 15;
+}
+#r-0-0-1:checked ~ .text .line.a::before {
+  content: "oh, really? then why are you";
+}
+#r-0-0-1:checked ~ .text .line.b::before {
+  content: "talking to me? go be awesome";
+}
+#r-0-0-1:checked ~ .text .line.c::before {
+  content: "somewhere else.";
+}
+#r-0-0-1:checked ~ .input .for-r-0-0-1 {
+  display: flex;
+}
+#r-0-0-1-0:checked ~ .text .sans {
+  background-image: var(--owo);
+}
+#r-0-0-1-0:checked ~ .text {
+  --n1: 40;
+  --n2: 18;
+  --n3: 0;
+}
+#r-0-0-1-0:checked ~ .text .line.a::before {
+  content: "because dolza is too good.";
+}
+#r-0-0-1-0:checked ~ .text .line.b::before {
+  content: "it’s intimidating.";
+}
+#r-0-0-1-0:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-0-0-1-1:checked ~ .text .sans {
+  background-image: var(--uwu);
+}
+#r-0-0-1-1:checked ~ .text {
+  --n1: 31;
+  --n2: 80;
+  --n3: 11;
+}
+#r-0-0-1-1:checked ~ .text .line.a::before {
+  content: "well, i hope you trip over your";
+}
+#r-0-0-1-1:checked ~ .text .line.b::before {
+  content: "own perfection. just kidding.";
+}
+#r-0-0-1-1:checked ~ .text .line.c::before {
+  content: "...or am i?";
+}
+#r-0-0-1-1:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-0-1:checked ~ .text {
+  --n1: 34;
+  --n2: 21;
+  --n3: 0;
+}
+#r-0-1:checked ~ .text .sans {
+  background-image: var(--disgruntled);
+}
+#r-0-1:checked ~ .text .line.a::before {
+  content: "well, there's sms' and dolza's.";
+}
+#r-0-1:checked ~ .text .line.b::before {
+  content: "but that's about it.";
+}
+#r-0-1:checked ~ .input .for-r-0-1 {
+  display: flex;
+}
+#r-0-1-0:checked ~ .text .sans {
+  background-image: var(--confused);
+}
+#r-0-1-0:checked ~ .text {
+  --n1: 31;
+  --n2: 31;
+  --n3: 7;
+}
+#r-0-1-0:checked ~ .text .line.a::before {
+  content: "oh, yours? uh... well... let's";
+}
+#r-0-1-0:checked ~ .text .line.b::before {
+  content: "just say... it's unique. yeah,";
+}
+#r-0-1-0:checked ~ .text .line.c::before {
+  content: "unique.";
+}
+#r-0-1-0:checked ~ .input .for-r-0-1-0 {
+  display: flex;
+}
+#r-0-1-0-0:checked ~ .text {
+  --n1: 34;
+  --n2: 33;
+  --n3: 17;
+}
+#r-0-1-0-0:checked ~ .text .line.a::before {
+  content: "you know, like a snowflake. pretty";
+}
+#r-0-1-0-0:checked ~ .text .line.b::before {
+  content: "to look at, but good luck finding";
+}
+#r-0-1-0-0:checked ~ .text .line.c::before {
+  content: "it in a blizzard.";
+}
+#r-0-1-0-0:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-0-1-1:checked ~ .text {
+  --n1: 34;
+  --n2: 23;
+  --n3: 0;
+}
+#r-0-1-1:checked ~ .text .line.a::before {
+  content: "yeah. but hey, at least you tried.";
+}
+#r-0-1-1:checked ~ .text .line.b::before {
+  content: "that’s more than i did.";
+}
+#r-0-1-1:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-0-2:checked ~ .text .sans {
+  background-image: var(--confused);
+}
+#r-0-2:checked ~ .text {
+  --n1: 30;
+  --n2: 29;
+  --n3: 10;
+}
+#r-0-2:checked ~ .text .line.a::before {
+  content: "huh. tough one. i like the one";
+}
+#r-0-2:checked ~ .text .line.b::before {
+  content: "that doesn't take itself too";
+}
+#r-0-2:checked ~ .text .line.c::before {
+  content: "seriously.";
+}
+#r-0-2:checked ~ .input .for-r-0-2 {
+  display: flex;
+}
+#r-0-2-0:checked ~ .text .sans {
+  background-image: var(--look-left);
+}
+#r-0-2-0:checked ~ .text {
+  --n1: 34;
+  --n2: 32;
+  --n3: 0;
+}
+#r-0-2-0:checked ~ .text .line.a::before {
+  content: "you know, the ones that don't try";
+}
+#r-0-2-0:checked ~ .text .line.b::before {
+  content: "too hard. kind of like this one.";
+}
+#r-0-2-0:checked ~ .input .for-r-0-2-0 {
+  display: flex;
+}
+#r-0-2-0-0:checked ~ .text {
+  --n1: 33;
+  --n2: 34;
+  --n3: 14;
+}
+#r-0-2-0-0:checked ~ .text .line.a::before {
+  content: "exactly! just be yourself. unless";
+}
+#r-0-2-0-0:checked ~ .text .line.b::before {
+  content: "you can be a skeleton. then always";
+}
+#r-0-2-0-0:checked ~ .text .line.c::before {
+  content: "be a skeleton.";
+}
+#r-0-2-0-0:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-0-2-1:checked ~ .text .sans {
+  background-image: var(--disgruntled);
+}
+#r-0-2-1:checked ~ .text {
+  --n1: 33;
+  --n2: 21;
+  --n3: 0;
+}
+#r-0-2-1:checked ~ .text .line.a::before {
+  content: "not really, but i wanted to sound";
+}
+#r-0-2-1:checked ~ .text .line.b::before {
+  content: "helpful. did it work?";
+}
+#r-0-2-1:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-1:checked ~ .text .sans {
+  background-image: var(--disgruntled);
+}
+#r-1:checked ~ .text {
+  --n1: 35;
+  --n2: 5;
+  --n3: 0;
+}
+#r-1:checked ~ .text .line.a::before {
+  content: "oh, okay. well, you're not missing";
+}
+#r-1:checked ~ .text .line.b::before {
+  content: "much.";
+}
+#r-1:checked ~ .input .for-r-1 {
+  display: flex;
+}
+#r-1-0:checked ~ .text {
+  --n1: 31;
+  --n2: 30;
+  --n3: 33;
+}
+#r-1-0:checked ~ .text .sans {
+  background-image: var(--disgruntled);
+}
+#r-1-0:checked ~ .text .line.a::before {
+  content: "eh, most of the submissions are";
+}
+#r-1-0:checked ~ .text .line.b::before {
+  content: "very dry. except the ones with";
+}
+#r-1-0:checked ~ .text .line.c::before {
+  content: "cool CSS effects. those are neat.";
+}
+#r-1-0:checked ~ .input .for-r-1-0 {
+  display: flex;
+}
+#r-1-0-0:checked ~ .text {
+  --n1: 34;
+  --n2: 32;
+  --n3: 24;
+}
+#r-1-0-0:checked ~ .text .line.a::before {
+  content: "yeah, you know, the ones that make";
+}
+#r-1-0-0:checked ~ .text .line.b::before {
+  content: "the input field sparkle or glow.";
+}
+#r-1-0-0:checked ~ .text .line.c::before {
+  content: "makes me feel all fancy.";
+}
+#r-1-0-0:checked ~ .input .for-r-1-0-0 {
+  display: flex;
+}
+#r-1-0-0-0:checked ~ .text .sans {
+  background-image: var(--look-right);
+}
+#r-1-0-0-0:checked ~ .text {
+  --n1: 32;
+  --n2: 33;
+  --n3: 13;
+}
+#r-1-0-0-0:checked ~ .text .line.a::before {
+  content: "exactly! but instead of dancing,";
+}
+#r-1-0-0-0:checked ~ .text .line.b::before {
+  content: "you're typing. it's a party for";
+}
+#r-1-0-0-0:checked ~ .text .line.c::before {
+  content: "your fingers.";
+}
+#r-1-0-0-0:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-1-0-1:checked ~ .text {
+  --n1: 12;
+  --n2: 0;
+  --n3: 0;
+}
+#r-1-0-1:checked ~ .text .line.a::before {
+  content: "yeah. sorry.";
+}
+#r-1-0-1:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-1-1:checked ~ .text {
+  --n1: 12;
+  --n2: 0;
+  --n3: 0;
+}
+#r-1-1:checked ~ .text .line.a::before {
+  content: "yeah. sorry.";
+}
+#r-1-1:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-2:checked ~ .text .sans {
+  background-image: var(--disgruntled);
+}
+#r-2:checked ~ .text {
+  --n1: 34;
+  --n2: 29;
+  --n3: 0;
+}
+#r-2:checked ~ .text .line.a::before {
+  content: "oh boy, you're asking the laziest";
+}
+#r-2:checked ~ .text .line.b::before {
+  content: "skeleton for help? bold move.";
+}
+#r-2:checked ~ .input .for-r-2 {
+  display: flex;
+}
+#r-2-0:checked ~ .text {
+  --n1: 30;
+  --n2: 31;
+  --n3: 17;
+}
+#r-2-0:checked ~ .text .sans {
+  background-image: var(--look-left);
+}
+#r-2-0:checked ~ .text .line.a::before {
+  content: "input fields, huh? i like 'em";
+}
+#r-2-0:checked ~ .text .line.b::before {
+  content: "simple. clean. you know, like a";
+}
+#r-2-0:checked ~ .text .line.c::before {
+  content: "nice bone polish.";
+}
+#r-2-0:checked ~ .input .for-r-2-0 {
+  display: flex;
+}
+#r-2-0-0:checked ~ .text {
+  --n1: 29;
+  --n2: 33;
+  --n3: 28;
+}
+#r-2-0-0:checked ~ .text .line.a::before {
+  content: "sure. add a little animation.";
+}
+#r-2-0-0:checked ~ .text .line.b::before {
+  content: "maybe a glow effect. make it fun.";
+}
+#r-2-0-0:checked ~ .text .line.c::before {
+  content: "like a disco, but for words.";
+}
+#r-2-0-0:checked ~ .input .for-r-2-0-0 {
+  display: flex;
+}
+#r-2-0-0-0:checked ~ .text .sans {
+  background-image: var(--wink);
+}
+#r-2-0-0-0:checked ~ .text {
+  --n1: 31;
+  --n2: 32;
+  --n3: 7;
+}
+#r-2-0-0-0:checked ~ .text .line.a::before {
+  content: "oh, now we’re talking! a little";
+}
+#r-2-0-0-0:checked ~ .text .line.b::before {
+  content: "*ding* every time you hit enter?";
+}
+#r-2-0-0-0:checked ~ .text .line.c::before {
+  content: "classy.";
+}
+#r-2-0-0-0:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-2-0-1:checked ~ .text .sans {
+  background-image: var(--look-right);
+}
+#r-2-0-1:checked ~ .text {
+  --n1: 32;
+  --n2: 32;
+  --n3: 24;
+}
+#r-2-0-1:checked ~ .text .line.a::before {
+  content: "blue. always blue. it’s classic.";
+}
+#r-2-0-1:checked ~ .text .line.b::before {
+  content: "but hey, throw in some gradients";
+}
+#r-2-0-1:checked ~ .text .line.c::before {
+  content: "if you’re feeling spicy.";
+}
+#r-2-0-1:checked ~ .input .for-r-2-0-1 {
+  display: flex;
+}
+#r-2-0-1-0:checked ~ .text {
+  --n1: 35;
+  --n2: 15;
+  --n3: 0;
+}
+#r-2-0-1-0:checked ~ .text .line.a::before {
+  content: "oh yeah, get wild. just don't burn";
+}
+#r-2-0-1-0:checked ~ .text .line.b::before {
+  content: "the place down.";
+}
+#r-2-0-1-0:checked ~ .input .for-eod {
+  display: flex;
+}
+#r-2-1:checked ~ .text {
+  --n1: 30;
+  --n2: 28;
+  --n3: 0;
+}
+#r-2-1:checked ~ .text .line.a::before {
+  content: "just start typing. that’s what";
+}
+#r-2-1:checked ~ .text .line.b::before {
+  content: "input fields are for, right?";
+}
+#r-2-1:checked ~ .input .for-r-2-1 {
+  display: flex;
+}
+#r-2-1-0:checked ~ .text .sans {
+  background-image: var(--wink);
+}
+#r-2-1-0:checked ~ .text {
+  --n1: 35;
+  --n2: 34;
+  --n3: 6;
+}
+#r-2-1-0:checked ~ .text .line.a::before {
+  content: "then you fix it. that's the beauty";
+}
+#r-2-1-0:checked ~ .text .line.b::before {
+  content: "of it. like skeletons, we all have";
+}
+#r-2-1-0:checked ~ .text .line.c::before {
+  content: "flaws.";
+}
+#r-2-1-0:checked ~ .input .for-eod {
+  display: flex;
+}
+
+.container {
+  position: relative;
+  font-family: monospace;
+  color: #fff;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  --normal: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAABHNCSVQICAgIfAhkiAAAAUNJREFUSEvFVosOwiAMHMb//+W5kpQctyuUBdXERPq4R4vTchzHeb2Hr/OclnT9pZQhniWtQqKukkVMkYgb8S5CFsICXljwLVLjYOxGzAlWvOOMHJX4F6Qu3Lm6Ue9wlcUolwJ5q7MAT+v+5vitFPPV5/2oHout9HWjjhqRKNrMam8bdaYxcpqNI8d0x+YwcqkIs/VTYgW+I1af1e5oNm507rUqFglDnu5WZwVEwFFcrar9OqmkA5m7kTPOzbAMV36PkdA+j4DYpdWqNXDd7UcC92wgK6QOzn2MGTrm0bLaJ2IYs42aVWXGxYL4jJiWQ/JG7C4iAQyaOY/2XYlRCRZbDgXhiHl06uziuM/i8sml3Gcccg2LwXy3Y1T2lHx0N3CNS39vsZHdqbFiDffeiGcAEWEUZ0KvC4kZCNfAOT5HZFj3AZKDygWixymAAAAAAElFTkSuQmCC);
+  --disgruntled: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAABHNCSVQICAgIfAhkiAAAATNJREFUSEvVlokOgzAMQyni/3+ZYaRUrknaFLGhTZo0yPHshGNlWZb9+HY/+z5MaepLKd1+CCLD7ToLi0iRiAv4KaAKUQErJ3wLCob2rmANqOInjplxgn8BNeHGakb9hKtsj3IocK/qbIO7ea85/g+w3os85l7MW8drjjdTM6vYc5HpkbqdkHTnos/UraYyA+Ac1LHDmXrU1VFjdFZsDTOjy4zcE1XfTl6Q969uGaixUS/UNo5V/cwarBbQTN3lJaF766lXoQzXKXAsdAx4D9iLRWK0p3sfZ8cVQey8XpwMr2BzoaPW4hGM4z0DJ5iVcDJiLEj3Njo2EZqH8+6z2nPPTrK/da9c1+yYld2F22q4lwF5bVN/bzP79oAAa+0FbOqiBtkxey65NgQrYEaIutNeOP4AohW8FanHLBoAAAAASUVORK5CYII=);
+  --confused: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAABHNCSVQICAgIfAhkiAAAAUpJREFUSEu9lgsOwjAMQ1fE/a885kqpXC9JPwyQkGia+DlpGZTjOM7rnb7Oc5jS1ZdSUj1sIsNVXYVFpMjEDfwUUI2ogRcn/AoKhmo3sG6o4yfWzKjgf0DNuLG6UT/R1axGuRy4t3pWYDdvqWO9mQzN9jxzby+4KmIaqJsdYAfeBY4698y0UT8B9aaHGLRVPz1jOPXcRgCLR3UMT8EjwDf79VltXek4VJi7t1wvpnU8CXxGbXe5srGOTKl4BLd4HfVIFPtRZ1yLnBktMN3vsbnyxjnqhOHZBG8/EtpBVhyZQE00IYu7HetoFbBjRjUbWDvdGbMa1PNmeANbF5EBFZ1ZZ+ddweyEk7HHhvTcRmszp3mIu08ur/uZDjVHz5X3uzNmZ7vw7G7wMS79vdXLoh1izeZ5X2tvYEuOBDxYFlOg5YZgFVsxEsFY8wM9g7ksDu33SQAAAABJRU5ErkJggg==);
+  --wink: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAABHNCSVQICAgIfAhkiAAAAT5JREFUSEvFllsOwjAMBBvE/a9ccCVXm6mdl1pA4iOxvbN20kLZtm3/fpuffe+mVPWllKaeBS0jVJ2FZaTMxAV8F5BGaOClCU9BjUHtE8wAHd+xVsYB/gXUjTurGvUdXY1qlK+D8FaPCqzm/a3j96rjqI6PDM9Va6Y6zoRNsBdjfAocdTmzp/BHwHZfe3f2BHMUM52s5B7vanfn8MitxXQ/yu2ZV051q2lgpZOoJmzEOrbkKOgiWbce5yR6WlbXfI6jcUYd6Z5BR+ouPxJ6TibScp+ZYB010445WgJWzFDzHDVdjYyLhrhWTYsp/AR7F5kBio6sW+d9gNWJJltMDemIObpo7eZYZ/vhKzPqfqRD5tCMxqszVmer8Nbd0GOc+nurhewuGqvmsPYC7glkwGyfQM9LwRTSY2CM6wymeR+m17ocC1PCVwAAAABJRU5ErkJggg==);
+  --look-right: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAABHNCSVQICAgIfAhkiAAAAUNJREFUSEvFVosOwiAMHMb//+W5kpQctx4UMtXERPq4R4vTchzHeb2Hr/OclnT9pZQhniWtIkRdJVNMSsSN+ClCFsICXljwLVLjYOxGzAlW/MQZOSrxL0hduHN1o37CVRajXArCW50F2K37m+N3pJivPu8n6rHYSl83atWIRGozq71t1JlG5TQbR47pjs2hcpkhVP1T4gz4Tk19Vruj2bjRuddGMSUEebpbnRWggFU8WlX7dYqSDmTuRs44N8My3PB7jIT2eQTELq02WgPX3X4kcM8GskLq4NzHmNIxj5bV7ohhzDZqVpUZFwviM2JaDskbsbtQAhg0cx7tuxKjEiy2HArCEfPoorOL4z6Lh0+uyH3GIdewGMx3O0Zlu+Sju4FrXPp7i43sLhor1nDvjXgGoAhVnAm9ThIzEK6Bc3xWZFj3ATLjygUbPXYmAAAAAElFTkSuQmCC);
+  --look-left: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAABHNCSVQICAgIfAhkiAAAAUNJREFUSEvFVosOwiAMHMb//+W5Lik5jh6UBdXERPq4R4vTchzHeb2Hr/OcljT9pZQhniWtIkRdJVNMSkRHvIuQhbCAFxZ8i9Q4GLsSc4IV7zgjx038C1IX7lzNqHe4ymKUS0F4q7MAT+v+5vgdKearz/uJeiy20teMWjUikdrMam8ddaZROc3GkaPbsTlSrjIE2f6OOAO+o+Z+VrvD2bhxEl4bxZQw5GludVaAAlbxaHX11ylKOpC5Gznj3AzLcMPvMRLa5xEQu7TaaA1c1/1I4J4NZIXUwbmPMaVjHi2rfSKGMeuoWVVmXCyIz4hpOSSvxO5CCWDQzHm075sYlWCx5VAQjphHF51dHPdZPHxyRe4zDrmGxWC+2TEqe0o+uhu4xqW/t9jI7qKxYg33dsQzAEWo4kzodZKYgXANnOOzIsO6D/IjygXBu82dAAAAAElFTkSuQmCC);
+  --pensive: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAABHNCSVQICAgIfAhkiAAAATNJREFUSEvVluEOgyAMhGXZ+7+ysyYl52cLSNwWl+xH6fXuWgQty7Ks27/5W9cu5FBfSmnyWdIQIetVsUwpM3ESvkuQRmjgpYBviZoGuaswE3R8R6wau/AvRN24ax1GfUdXoxxlcxA+1aMEs7i/dfwMYZ5FHXMrF23HMzqOnM+u1Y57o+rlzUAPo/n9rvYT1SvUk+fYaC2bguq8FTRqICPO1qOror6doqQTWXetzpjrcRnvoWM6jsZJDGMTHak7vSR0n42k5Z6iHrOOnGnHHC0FZsyQs46arkbGRUOMldNyKl6FvYvMAElH4tZ+78LqRMGWU0M6Yo4uit0c62w9vKuj7kc6JIZmNH/YY3U2K956NnQbL33eaiG7i8aqGNaehHsEmWC2TkHHpcIk0m1gjnEmprgPCa2uID1eBDIAAAAASUVORK5CYII=);
+  --owo: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAABHNCSVQICAgIfAhkiAAAATRJREFUSEvFVgEOwjAIXM3+/+U5ltBcb1xLl+pMTCxw3MFVZ9m27Tjf3ddxDEsafCml28+SVhF2nSVTTErEjXgVIQthAR8s+BWpcXDvSswJVrzijBwX8T9IXbhzNateMVW2RzkVhLc62+Bp3WsT75FivvrsT4Sx2AyuWbUCIpFyZhZbV50BqkmzceR4zeP3iH185Z3y13C4uhm84Zpb7eDVfkei6tMpSvq0JgTzLIxzo17WN/weI6F97jXiG221GftuDwn2bYbURRiGt4A5OTGvNpqKY6Mz96yr5kkz68qQYQ2SV2JfjRIwIonyPb8vYlSCxZZDQezb6OxiuM7i4S9XNH000SjGvmJ94zEqe0reuxto49TfWwSqaVE81jD2Rhz5okgycSZ0jCTmpmoSrrOzIsPaL0ShvRNhpDAuAAAAAElFTkSuQmCC);
+  --uwu: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAABHNCSVQICAgIfAhkiAAAAV5JREFUSEvFlm0LwjAMhNchDPz/v1XYp7lMUq63XF/GVEGwbS7PJenUNE3Ttr+rr21rhhT6lFI1nx1aRJh1FKZIysQJfBeQjbCBGQO+BTUG585gPmDHd6yRcYB/AXXjzipafUdVvTnS7iC81b0Jrsb9reJH5JivPs8n0tjeiK5otRIiSE0Gtc91zZLXsuTPp1tdc6uqU/sItRhco7lbZ6wqZTNHoX6re9psglarI0jU7tmBKiG2FGNMh2b9DCGmjaCH9lNE+Sir6hnMHejRmSaDOQFW6YER1OP4rNY9Nxc+x55wZAxookd3+pHgudXcc2cQzl3g7oQVG7wGrJ0pM5wzg7nSnnYpCI8K1246g31DGWhBonPLqQo4wNgGDLYzNMRza63dDMfZfviVGVUfVdTa47lifDFjdHYVrlprUBzj0N9bFKpq0TzGsPYE9mCVQAHVPgM9ToI50YgRBcOcb7pc3wnkrlznAAAAAElFTkSuQmCC);
+}
+
+.input {
+  position: absolute;
+  top: 100%;
+  margin-top: 4px;
+  width: fit-content;
+}
+
+.input label {
+  cursor: pointer;
+}
+
+.input label::before {
+  content: "";
+  display: inline-block;
+  width: 1ch;
+  margin-right: 1ch;
+}
+
+.input label:hover::before {
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw1AUhU9TpSIVh2YQcchQndpFRRxrFYpQIdQKrTqYvPQPmrQkKS6OgmvBwZ/FqoOLs64OroIg+APiLjgpukiJ9yWFFjFeeLyP8+45vHcfILSqTLf6EoBu2GYmlZRy+VUp9IogIhARQExhVn1OltPwra976qO6i/Ms/74/a0grWAwISMQJVjdt4g3imU27znmfWGRlRSM+J46ZdEHiR66rHr9xLrks8EzRzGbmiUViqdTDag+zsqkTTxNHNd2gfCHnscZ5i7NebbDOPfkLwwVjZZnrtMaQwiKWIEOCigYqqMJGnHaDFAsZOk/6+Eddv0wulVwVMHIsoAYdiusH/4Pfs7WKU5NeUjgJ9L84zsc4ENoF2k3H+T52nPYJEHwGroyuv9YCZj9Jb3a16BEwvA1cXHc1dQ+43AFGnuqKqbhSkJZQLALvZ/RNeSByCwyueXPrnOP0AcjSrNI3wMEhMFGi7HWfdw/0zu3fns78fgB5iXKpVTHEWgAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+kDExQDENUmKkAAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAO0lEQVQY042PQQoAIAzDUv//53qajFHFHNtQNgAMNphGzzRLpWwGicUHX5LqyIcg9W+ScJaSqNFxE4sNvUwV/IeIjWwAAAAASUVORK5CYII=");
+}
+
+.input > div {
+  display: none;
+  flex-direction: column;
+  align-items: end;
+}
+
+.box {
+  --c: 0.025s;
+  display: flex;
+  gap: 12px;
+  border: 4px solid white;
+  background-color: black;
+  padding: 12px;
+}
+
+.sans {
+  background-image: var(--normal);
+  background-size: contain;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  margin: auto;
+  width: 45px;
+  height: 42px;
+}
+
+.text {
+  font-weight: 600;
+}
+
+.lines {
+  width: 34ch;
+}
+
+.line {
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: wahoo steps(var(--n)) backwards;
+  animation-duration: calc(var(--n) * var(--c));
+  height: 1lh;
+}
+
+.line.a {
+  --n: var(--n1);
+}
+.line.b {
+  --n: var(--n2);
+  animation-delay: calc(var(--n1) * var(--c));
+}
+.line.c {
+  --n: var(--n3);
+  animation-delay: calc((var(--n1) + var(--n2)) * var(--c));
+}
+
+@keyframes wahoo {
+  0% {
+    width: 0;
+  }
+  to {
+    width: calc(var(--n) * 1ch);
+  }
+}
