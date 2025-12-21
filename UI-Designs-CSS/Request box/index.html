@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="interactive-card-container">
+  <div class="directional-hover-area hover-top-left" aria-hidden="true"></div>
+  <div class="directional-hover-area hover-top-right" aria-hidden="true"></div>
+  <div
+    class="directional-hover-area hover-bottom-left"
+    aria-hidden="true"
+  ></div>
+  <div
+    class="directional-hover-area hover-bottom-right"
+    aria-hidden="true"
+  ></div>
+
+  <section
+    class="interactive-card"
+    role="region"
+    aria-label="Add additional requests panel"
+  >
+    <div class="interactive-card__glow-layer" aria-hidden="true">
+      <div class="interactive-card__glow interactive-card__glow--purple"></div>
+      <div class="interactive-card__glow interactive-card__glow--pink"></div>
+      <div class="interactive-card__glow interactive-card__glow--teal"></div>
+    </div>
+    <div class="interactive-card__noise-overlay" aria-hidden="true"></div>
+
+    <div class="interactive-card__inner">
+      <header class="interactive-card__header">
+        <p class="interactive-card__title">ADD ADDITIONAL REQUESTS</p>
+        <p class="interactive-card__subtitle">
+          Add up to 2 additional requests to your plan.
+        </p>
+
+        <p class="interactive-card__limit-message">Request limit reached.</p>
+      </header>
+
+      <div
+        class="interactive-card__control-pill"
+        role="group"
+        aria-label="add request control"
+      >
+        <span class="interactive-card__pill-icon" aria-hidden="true">✱</span>
+        <span class="interactive-card__pill-label">ADD REQUEST</span>
+
+        <input
+          type="radio"
+          name="request-count"
+          id="count-0"
+          class="interactive-card__counter-input"
+          checked=""
+        />
+        <input
+          type="radio"
+          name="request-count"
+          id="count-1"
+          class="interactive-card__counter-input"
+        />
+        <input
+          type="radio"
+          name="request-count"
+          id="count-2"
+          class="interactive-card__counter-input"
+        />
+
+        <div class="interactive-card__count-display">
+          <span class="interactive-card__count-value"></span>
+        </div>
+
+        <div
+          class="interactive-card__buttons interactive-card__buttons--state-0"
+        >
+          <span
+            class="interactive-card__btn interactive-card__btn--dec interactive-card__btn--disabled"
+            aria-disabled="true"
+            >−</span
+          >
+          <div class="interactive-card__btn-separator"></div>
+          <label
+            for="count-1"
+            class="interactive-card__btn interactive-card__btn--inc"
+            >+</label
+          >
+        </div>
+
+        <div
+          class="interactive-card__buttons interactive-card__buttons--state-1"
+        >
+          <label
+            for="count-0"
+            class="interactive-card__btn interactive-card__btn--dec"
+            >−</label
+          >
+          <div class="interactive-card__btn-separator"></div>
+          <label
+            for="count-2"
+            class="interactive-card__btn interactive-card__btn--inc"
+            >+</label
+          >
+        </div>
+
+        <div
+          class="interactive-card__buttons interactive-card__buttons--state-2"
+        >
+          <label
+            for="count-1"
+            class="interactive-card__btn interactive-card__btn--dec"
+            >−</label
+          >
+          <div class="interactive-card__btn-separator"></div>
+          <span
+            class="interactive-card__btn interactive-card__btn--inc interactive-card__btn--disabled"
+            aria-disabled="true"
+            >+</span
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>
